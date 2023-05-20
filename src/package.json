@@ -1,20 +1,27 @@
 {
-  "name": "skillserver",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gecko-voice/skillserver.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gecko-voice/skillserver/issues"
-  },
-  "homepage": "https://github.com/gecko-voice/skillserver#readme"
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node .",
+        "lint": "eslint --fix .",
+        "format": "prettier --write ."
+    },
+    "author": "Finn Wehn",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^8.40.0",
+        "eslint-config-prettier": "^8.8.0",
+        "nodemon": "^2.0.22",
+        "prettier": "^2.8.8"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-easy-zip": "^1.1.5",
+        "express-fileupload": "^1.2.1",
+        "adm-zip": "^0.5.9",
+        "body-parser": "^1.19.0"
+    }
 }

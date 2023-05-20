@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+    </head>
+    <body>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label>
+                Name:
+                <input name="skillName" type="text" required />
+            </label>
+            <br />
+            <label>
+                Version:
+                <input name="versionTag" type="text" required />
+            </label>
+            <br />
+            <label>
+                File:
+                <input name="zipped" type="file" accept=".zip" required />
+            </label>
+            <br />
+            <input type="submit" value="Upload!" />
+        </form>
+    </body>
+</html>

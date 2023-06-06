@@ -9,7 +9,7 @@
         "format": "prettier --write ."
     },
     "author": "Finn Wehn",
-    "license": "ISC",
+    "license": "GPL-3.0",
     "devDependencies": {
         "eslint": "^8.40.0",
         "eslint-config-prettier": "^8.8.0",
